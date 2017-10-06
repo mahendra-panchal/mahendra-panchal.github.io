@@ -1,0 +1,508 @@
+.rgdev {
+    font-family: grp, Arial, Helvetica, sans-serif;
+    color: #fff;
+    position: relative;
+    font-size: 14px;
+    padding: 0;
+    margin: 20px 10px 0 0;
+    float: right
+}
+.rgdev-list {
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    padding: 0
+}
+.rgdev-item {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap
+}
+.rgdev-item a {
+    display: block;
+    color: #3f3f3f;
+    padding: 0 8px;
+    margin: 4px 19px;
+    line-height: 38px;
+    height: 38px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.rgdev-item a.active,
+.rgdev-list li:hover>a {
+    border-bottom: 2px solid #0d93df;
+    -webkit-transition: none;
+    transition: none;
+    color: #36BCF7;
+}
+.rgdev-submenu {
+    display: none;
+    -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .2);
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 54px;
+    min-width: 230px;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    border-top: 2px solid #0451A2
+}
+.rgdev-submenu-item a {
+    background: #fff;
+    text-align: left;
+    border-bottom: 1px solid #D8D8D8;
+    display: block;
+    line-height: 30px;
+    height: auto;
+    color: #636363;
+    padding: 8px 15px 8px 21px;
+    text-transform: none
+}
+.rgdev-mobile,
+.rgdev-text {
+    display: none;
+    position: absolute
+}
+.rgdev-submenu-item a:hover {
+    color: #0669B9;
+    border-radius: 0!important
+}
+.rgdev-text {
+    width: 50%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    line-height: 44px;
+    text-indent: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: none
+}
+.rgdev li a.home_bt {
+    text-decoration: none;
+    background: url(../images/menubg2.png) left top no-repeat;
+    padding: 0 27px;
+    width: 0;
+    height: 42px
+}
+.rgdev li a.active.home_bt,
+.rgdev li a:hover.home_bt {
+    background: url(../images/menubg2.png) left bottom no-repeat
+}
+#rgdev li a span.home_bt {
+    text-decoration: none;
+    background: url(../images/menubg2.png) right top no-repeat
+}
+.rgdev li a.active span.home_bt,
+.rgdev li a:hover span {
+    background: url(../images/menubg2.png) right bottom no-repeat
+}
+.rgdev-mobile {
+    top: 13px;
+    right: 13px;
+    padding: 7px 12px;
+    margin: 6px 7px 0;
+    border-radius: 4px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle
+}
+.rgdev-click,
+.rgdev-click02 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer
+}
+.rgdev-mobile .icon-bar {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background-image: none;
+    background-color: #FFF;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .25);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .25);
+    margin-top: 4px
+}
+.rgdev-click i,
+.rgdev-click02 i {
+    height: 23px;
+    width: 25px;
+    margin-top: 10px;
+    margin-right: 8px;
+    background-size: 25px
+}
+.rgdev-click {
+    display: none
+}
+.rgdev-click i {
+    display: block
+}
+.rgdev-click02 {
+    display: none
+}
+.rgdev-click02 i {
+    display: block
+}
+.rgdev-rotate {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+.rgdev-submenu-item {
+    position: relative;
+    margin: 0;
+    padding: 0
+}
+@media only screen and (min-width: 961px) {
+    .rgdev-list li:hover .rgdev-submenu {
+        display: block
+    }
+    .rgdev-list .rgdev-submenu .rgdev-submenu-sub {
+        min-width: 220px;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        display: none!important;
+        margin: 0;
+        padding: 0
+    }
+    .rgdev-list .rgdev-submenu li:hover .rgdev-submenu-sub {
+        display: block!important;
+        padding: 0;
+        list-style: none;
+        margin: 0
+    }
+    .rgdev-list li:hover .rgdev-submenu .rgdev-submenu-sub {
+        display: block
+    }
+    .rgdev-list .rgdev-submenu .rgdev-submenu-sub .rgdev-submenu-sub-sub {
+        min-width: 220px;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        display: none!important;
+        margin: 0;
+        padding: 0
+    }
+    .rgdev-list .rgdev-submenu .rgdev-submenu-sub li:hover .rgdev-submenu-sub-sub {
+        display: block!important;
+        padding: 0;
+        list-style: none;
+        margin: 0
+    }
+    .rgdev-submenu-item-sub,
+    .rgdev-submenu-item-sub-item-sub {
+        position: relative;
+        padding: 0;
+        margin: 0
+    }
+}
+@media only screen and (min-width: 230px) and (max-width: 960px) {
+    .mobile-sub a,
+    .rgdev-mobile {
+        display: block
+    }
+    .mobile-sub {
+        margin: 0;
+        padding: 0 0 10px;
+        list-style: none;
+        float: none;
+        width: 100%;
+        border: 1px solid rgba(163, 163, 163, 1);
+        -webkit-box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, .2);
+        box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, .2);
+        border-radius: 5px;
+        background-color: #FFF;
+        right: 10px;
+        position: relative
+    }
+    .mobile-sub a,
+    .rgdev-submenu a,
+    .rgdev-submenu-sub a,
+    .rgdev-submenu-sub-sub a {
+        border-bottom: solid 1px #ccc
+    }
+    .mobile-sub li {
+        margin: 0!important;
+        display: block
+    }
+    .mobile-sub a {
+        color: #000;
+        padding: 15px 25px;
+        background: #fff!important
+    }
+    .mobile-sub li a.active {
+        color: #000!important;
+        box-shadow: none
+    }
+    .mobile-sub li:hover>a {
+        background-color: #f5f5f5!important;
+        box-shadow: none
+    }
+    .rgdev {
+        width: 50%;
+        padding: 64px 0 0!important;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        top: 0
+    }
+    .rgdev-submenu,
+    .rgdev-submenu-sub {
+        position: static;
+        width: 100%
+    }
+    .rgdev-list {
+        display: none
+    }
+    .rgdev-item {
+        width: 100%;
+        float: none;
+        text-align: left
+    }
+    .rgdev-item>a {
+        padding: 13px;
+        line-height: 20px;
+        text-transform: uppercase
+    }
+    .rgdev-click,
+    .rgdev-click02 {
+        display: block
+    }
+    .rgdev-mobile-open {
+        border-radius: 5px 5px 0 0;
+        -webkit-border-radius: 5px 5px 0 0;
+        -moz-border-radius: 5px 5px 0 0
+    }
+    .rgdev-item:hover .rgdev-submenu {
+        display: none
+    }
+    .rgdev-submenu li {
+        margin: 0!important
+    }
+    .rgdev-submenu a {
+        display: block;
+        color: #000;
+        padding: 12px 25px;
+        background: #fff!important
+    }
+    .rgdev-submenu li a.active {
+        color: #000!important
+    }
+    .rgdev-submenu li:hover>a {
+        background-color: #f5f5f5!important;
+        color: #000
+    }
+    .rgdev-submenu-sub {
+        left: 100%;
+        top: 0;
+        display: none;
+        margin: 0;
+        padding: 0
+    }
+    .rgdev-submenu-sub li {
+        margin: 0!important;
+        padding: 0;
+        position: relative
+    }
+    .rgdev-submenu-sub a {
+        display: block;
+        color: #000;
+        padding: 10px 25px;
+        background: #fff!important;
+        font-weight: 400
+    }
+    .rgdev-submenu-sub li a.active {
+        color: #000!important
+    }
+    .rgdev-submenu-sub li:hover>a {
+        background-color: #ccc!important;
+        color: #fff
+    }
+    .rgdev-submenu-sub-sub {
+        width: 100%;
+        position: static;
+        left: 100%;
+        top: 0;
+        display: none;
+        margin: 0;
+        padding: 0
+    }
+    .rgdev-submenu-sub-sub li {
+        margin: 0!important
+    }
+    .rgdev-submenu-sub-sub a {
+        display: block;
+        color: #000;
+        padding: 10px 25px;
+        background: #fff!important;
+        font-weight: 400
+    }
+    .rgdev-submenu-sub-sub li a.active {
+        color: #000!important
+    }
+    .rgdev-submenu-sub-sub li:hover>a {
+        background-color: #606060!important;
+        color: #fff
+    }
+    .rgdev-text {
+        display: block
+    }
+}
+.ext-effect a {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 30px;
+    height: 34px;
+    line-height: 32px
+}
+.rgdev-item.ext-effect:hover {
+    border: 0;
+    background-color: transparent!important
+}
+.rgdev-item.ext-effect:hover a {
+    background-color: #fff;
+    border: 1px solid #FFF;
+    border-radius: 30px;
+    color: #000!important
+}
+@media only screen and (min-width: 1024px) {
+    .fp-viewing-1 .rgdev-item .fa-angle-down,
+    .fp-viewing-1 .rgdev-item a,
+    .fp-viewing-2 .rgdev-item .fa-angle-down,
+    .fp-viewing-2 .rgdev-item a {
+        color: #6d6d6d
+    }
+    .fp-viewing-1 .menu-button span,
+    .fp-viewing-1 .menu-button:after,
+    .fp-viewing-1 .menu-button:before,
+    .fp-viewing-2 .menu-button span,
+    .fp-viewing-2 .menu-button:after,
+    .fp-viewing-2 .menu-button:before {
+        background-color: #6d6d6d
+    }
+    .fp-viewing-1 .ext-effect a,
+    .fp-viewing-2 .ext-effect a {
+        border: 1px solid #6d6d6d
+    }
+    .fp-viewing-1 .ext-effect a:hover,
+    .fp-viewing-2 .ext-effect a:hover {
+        border: 1px solid #1691CC;
+        color: #fff!important;
+        background-color: #1691CC
+    }
+    .mdHome.white-head .fa-angle-down,
+    .mdHome.white-head .rgdev-item a {
+        color: #fff!important
+    }
+    .mdHome.white-head .rgdev-item a:hover,
+    .mdHome.white-head .rgdev-item:hover .fa-angle-down,
+    .mdHome.white-head:hover .rgdev-submenu a {
+        color: #333!important
+    }
+    .mdHome.white-head .menu-button span,
+    .mdHome.white-head .menu-button:after,
+    .mdHome.white-head .menu-button:before {
+        background-color: #fff
+    }
+    .mdHome.white-head .ext-effect a {
+        border: 1px solid #fff
+    }
+    .inner-head .mdv2-head.fix_head .ext-effect a {
+        border: 1px solid #6d6d6d
+    }
+    .inner-head .mdv2-head.fix_head .rgdev-item .fa-angle-down,
+    .inner-head .mdv2-head.fix_head .rgdev-item a {
+        color: #6d6d6d
+    }
+    .inner-head .mdv2-head.fix_head .rgdev-item a:hover,
+    .inner-head .mdv2-head.fix_head .rgdev-item:hover .fa-angle-down,
+    .inner-head .mdv2-head.fix_head .rgdev-submenu a {
+        color: #333!important
+    }
+    .inner-head .mdv2-head.fix_head .ext-effect a:hover {
+        border: 1px solid #1691CC;
+        color: #fff!important;
+        background-color: #1691CC
+    }
+    .black_head .fa-angle-down,
+    .black_head .rgdev-item a {
+        color: #6d6d6d!important
+    }
+    .black_head .rgdev-item a:hover,
+    .black_head .rgdev-item:hover .fa-angle-down,
+    .black_head:hover .rgdev-submenu a {
+        color: #333!important
+    }
+    .black_head .menu-button span,
+    .black_head .menu-button:after,
+    .black_head .menu-button:before {
+        background-color: #6d6d6d
+    }
+    .black_head .ext-effect a {
+        border: 1px solid #6d6d6d
+    }
+    .white-head .black_head .fa-angle-down,
+    .white-head .black_head .rgdev-item a,
+    .white-head .black_head .rgdev-item a:hover,
+    .white-head .black_head .rgdev-item:hover .fa-angle-down,
+    .white-head .black_head:hover .rgdev-submenu a {
+        color: #fff!important
+    }
+    .white-head .black_head .menu-button span,
+    .white-head .black_head .menu-button:after,
+    .white-head .black_head .menu-button:before {
+        background-color: #fff
+    }
+    .white-head .black_head .ext-effect a {
+        border: 1px solid #fff
+    }
+}
+.extra-pad>a {
+    padding-right: 30px!important
+}
+.extra-pad {
+    margin-right: 25px!important
+}
+@media only screen and (min-width: 902px) and (max-width: 3000px) {
+    .rgdev-item.extra-shape a {
+        border-radius: 40px;
+        background-color: #0d93df;
+        padding: 0 22px;
+        color: #fff;
+        line-height: 30px;
+        height: 30px
+    }
+    .rgdev-item.extra-shape a:hover {
+        background-color: #0168b0;
+        border-bottom: 0
+    }
+    .rgdev-item.extra-shape02 a {
+        border-radius: 40px;
+        border: 2px solid #0d93df;
+        padding: 0 22px;
+        color: #fff;
+        line-height: 27px;
+        height: 30px;
+        color: #005789;
+    }
+    .rgdev-item.extra-shape02 a:hover {
+        border: 2px solid #005789;
+        color: 005789;
+    }
+}

@@ -1,0 +1,288 @@
+@charset "utf-8";
+@media only screen and (min-width: 300px) and (max-width: 499px) {
+    .head-langBox {
+        position: absolute;
+        left: 12px;
+        top: 0px;
+    }
+    #home-banner {
+        height: auto!important
+    }
+    .logo {
+        position: absolute;
+        top: 4px;
+        left: calc(50% - 53px);
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+    .head-langBox {
+        position: absolute;
+        left: 20px;
+        top: 0px;
+    }
+    #home-banner {
+        height: auto!important
+    }
+    .logo {
+        position: absolute;
+        top: 4px;
+        left: calc(50% - 53px);
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {} @media only screen and (min-width: 768px) and (max-width: 960px) {
+    .head-langBox {
+        position: absolute;
+        left: 20px;
+        top: 0px;
+    }
+    #head-langlistbox {
+        right: auto;
+    }
+    .logo {
+        position: absolute;
+        top: 4px;
+        left: calc(50% - 53px);
+    }
+}
+@media screen and (max-width: 1200px) {
+    .main-banner {
+        height: 780px!important;
+    }
+    .title-01{
+        font-size: 29px;
+    }
+    .wg-box01:nth-child(2){
+        padding:56px 20px 20px 0;
+    }
+    .fs-bluebox01{
+        z-index:-11;
+    }
+    #why-gigeicon-02::after{
+        z-index:1;
+    }
+    .traditional_row span{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .traditional_row h2{
+        margin-bottom: 30px;
+    }
+    .traditional_row p{
+        margin-bottom: 20px;
+    }
+    .traditional_bar::before{
+        top:0;
+        bottom:0;
+    }
+    .traditional_bar::after{
+        top:0;
+    }
+    .launch_box{
+        padding:71px 0 242px;
+    }
+    .roadmap_bar p{
+        font-size: 17px;
+    }
+    .team-img {
+        width: 215px;
+        height: 215px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-banner {
+        min-height: 720px;
+    }
+    .title-01{
+        font-size: 27px;
+    }
+    .title-02{
+        font-size: 17px;
+    }
+    .wg-box01{
+        padding:53px 20px 20px 20px;
+    }
+    .how_box{
+        padding-top: 40px;
+    }
+    .how_bar,.how_bar h2{
+        margin-left: 0;
+    }
+    .how_box{
+        padding-bottom: 70px;
+    }
+    .launch_row h2{
+        margin-bottom: 30px;
+    }
+    .ecoin_box{
+        max-width: 100%;
+    }
+    .ecoin_box h2{
+        /*padding:0 221px 0 0;*/
+    }
+}
+@media screen and (max-width: 991px) {
+    .banner-title01 span{
+        font-size: 30px;
+    }
+    .main-banner{
+        margin-bottom: 40px;
+    }
+    #partners{
+        padding-bottom: 40px;
+    }
+    .title-01{
+        font-size: 21px;
+    }
+    .wg-box01{
+        padding:  0 10px 20px 10px;
+    }
+    .text-01{
+        font-size: 14px;
+    }
+    .wg-box01:nth-child(2){
+        padding-top: 0;
+    }
+    #why-gigeicon-02{
+        padding-top: 40px;
+    }
+    .launch_section{
+        background-size: cover;
+    }
+    .ecoin_box ul li{
+        width:40%;
+    }
+    .ecoin_box h2{
+        /*padding:0 92px 0 0;*/
+    }
+    .launch_row h2{
+        font-size: 40px;
+    }
+    .youtube iframe{
+        max-width:100%;
+        height: 300px;
+    }
+    .team-col-3 {
+        width: 50%;
+    }
+    .team-into {
+        margin: 0 0 30px;
+    }
+    .team-img {
+        /*height: 155px;*/
+        /*width: 155px;*/
+    }
+}
+@media screen and (max-width: 767px) {
+    #home-banner{
+        height: 300px!important;
+    }
+    #head-langlistbox{
+        right: -86px;
+    }
+    .wg-box01{
+        width:100%;
+    }
+    .wg-box01:nth-child(2){
+        padding-left: 20px;
+    }
+    .fs-bluebox01{
+        padding:30px 20px;
+    }
+    .launch_row h2{
+        font-size: 25px;
+    }
+    .launch_box{
+        padding-top:30px ;
+        padding-bottom: 60px;
+    }
+    .ecoin_box ul li{
+        width:100%;
+    }
+    .ecoin_box h2{
+        padding:0;
+        margin:0 0 20px ;
+    }
+    .launch_section_box p{
+        margin-right: 0;
+    }
+    .launch_section::before{
+        position: static;
+    }
+    .traditional_bar::after,.traditional_bar::before,#why-gigeicon-02::after,#why-gigeicon-02::before{
+        position: static;
+    }
+    .banner-title01 span{
+        font-size: 27px;
+    }
+    .btn-01{
+        width:auto;
+    }
+    .gig-logo img{
+        max-width:49%;
+    }
+    .prbox-01{
+        width:29%;
+        margin-bottom: 10px;
+    }
+    .banner-title02 span + span{
+        font-size: 35px;
+    }
+    .title-01{
+        margin-bottom: 15px;
+    }
+    #why-gigeicon{
+        padding: 40px 0;
+    }
+    .how_box{
+        padding:40px 0;
+    }
+    .launch_section{
+        padding:30px 20px;
+    }
+    .number_box span{
+        font-size: 15px;
+    }
+    .our-team .roadmap_bar {
+        margin: 0 0 18px;
+    }
+}
+@media screen and (max-width: 639px) {
+    .team-col-3 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 479px) {
+    .banner-title01 span{
+        font-size: 23px;
+    }
+    .banner-title01 span + span{
+        font-size: 18px;
+    }
+    .title-01 br{
+        display: none;
+    }
+    .title-03{
+        font-size: 28px;
+    }
+    .traditional_row h2{
+        font-size: 30px;
+    }
+    .traditional_row span{
+        line-height: 25px;
+    }
+    .traditional_row p{
+        max-width: 100%;
+    }
+    .launch_row h2 {
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .launch_section_box span br{
+        display: none;
+    }
+    .launch_section_box p:first-child{
+        margin:0;
+    }
+}
+
