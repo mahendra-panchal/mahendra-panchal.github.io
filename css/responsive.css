@@ -150,7 +150,7 @@
         background-size: cover;
     }
     .ecoin_box ul li{
-        width:40%;
+        /*width:40%;*/
     }
     .ecoin_box h2{
         /*padding:0 92px 0 0;*/
@@ -196,12 +196,12 @@
         padding-top:30px ;
         padding-bottom: 60px;
     }
-    .ecoin_box ul li{
+    /*.ecoin_box ul li{
         width:100%;
-    }
+    }*/
     .ecoin_box h2{
-        padding:0;
-        margin:0 0 20px ;
+        /*padding:0;*/
+        /*margin:0 0 20px ;*/
     }
     .launch_section_box p{
         margin-right: 0;
@@ -222,7 +222,7 @@
         max-width:49%;
     }
     .prbox-01{
-        width:29%;
+        /*width:29%;*/
         margin-bottom: 10px;
     }
     .banner-title02 span + span{
@@ -246,10 +246,58 @@
     .our-team .roadmap_bar {
         margin: 0 0 18px;
     }
+    .our-team {
+        padding: 50px 0 50px;
+    }
+    .road-6 {
+        width: 100%;
+    }
+    .road-6.right {
+        border: none;        
+    }
+    .road-bx {
+        margin: 0 0 30px;
+    }
+    .road-bx::before {
+        right: -54px;
+    }
+    .right .road-bx {
+        margin: 0 0 30px;
+    }
+    .right .road-bx::before {
+        left: -51px;
+    }
+    .roadmap-bx {
+        padding: 0 0 10px;
+    }
+    .roadmap_bar {
+        margin: 0 0 20px;
+    }
+    .roadmap {
+        padding: 50px 0 0;
+    }
+    .half-row {
+        margin: 0 -15px;
+    }
+    .half-bx {
+        padding: 0 15px 15px;
+        width: 100%;
+    }
+
 }
 @media screen and (max-width: 639px) {
     .team-col-3 {
         width: 100%;
+    }
+    .prbox-01 {
+        width: 33.33%;
+    }
+    .ecoin_box h2 {
+        width: 100%;
+        margin: 0 0 15px;
+    }
+    .ecoin_box ul li{
+        width:100%;
     }
 }
 @media screen and (max-width: 479px) {
@@ -283,6 +331,9 @@
     }
     .launch_section_box p:first-child{
         margin:0;
+    }
+    .prbox-01 {
+        width: 50%;
     }
 }
 

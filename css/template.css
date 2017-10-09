@@ -557,7 +557,7 @@ header {
 }
 
 .launch_section{
-    background: url("../images/banner_1.png") no-repeat center;
+    background: url("../images/banner_1.png") no-repeat center / cover;
     max-width: 1073px;
     margin: 0 auto;
     padding: 45px 40px 40px;
@@ -613,21 +613,28 @@ header {
     font: normal 23px/40px grp, Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: #ffffff;
-    display: inline-block;
+    /*display: inline-block;*/
+    float: left;
+    width: 50%;
     /*padding: 0 155px 0 0;*/
     margin: 0 0 25px;
+    padding: 0 21px;
 }
 .ecoin_box h2:last-child{
-    /*padding:0;*/
-}
-.ecoin_box ul{
-    margin:0 0 20px 0;
     padding:0;
 }
+.ecoin_box ul{
+    /*margin:0 0 20px 0;*/
+    padding:0;
+    margin: 0 -21px;
+}
 .ecoin_box ul li {
-    width: 100%;
-    display: inline-block;
-    margin: 0 28px 11px 0;
+    width: 50%;
+    /*display: inline-block;*/
+    float: left;
+    padding: 0 21px;
+    /*margin: 0 0 11px 0;*/
+    list-style: none;
 }
 /*.ecoin_box ul li:last-child{*/
     /*margin:0;*/
@@ -650,7 +657,7 @@ header {
 .ecoin_box h3{
     font: normal 18px/26px grp-light, Arial, Helvetica, sans-serif;
     color: #fff;
-    margin: 24px 0 0;
+    margin: 15px 0 0;
     display: inline-block;
     width: 100%;
 }
@@ -841,3 +848,6 @@ header {
     color: #585858;
     font-family: grp-light, Arial, Helvetica, sans-serif;
 }
+
+.fix_head{ position:fixed; background-color:rgba(255,255,255,0.92); left:0px; top:0px; right:0px; -webkit-box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.1);
+box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.1);}
